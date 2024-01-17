@@ -1,0 +1,147 @@
+/* dando color de fondo a la página */
+body{
+   background-color: beige; 
+}
+/* ------------------------------------------------------------------ */
+
+/* alineando el título de la página */
+h1 {
+    text-align: center;
+}
+/* ------------------------------------------------------------------ */
+
+/* dando formato al tamaño de imagenes de ejemplo de los sistemas */
+img {                     
+    width: 550px;
+    height: 350px;
+}
+/* ------------------------------------------------- */
+
+/* dando formato de presentación de la foto de perfil de la página */
+.perfil {                      
+    width: 250px;
+    height: 250px;  
+    box-shadow: 0 0 12px 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;    
+}
+/* ----------------------------------------------- */
+
+/* dando formato al nombre, titulo y matricula sobre mi persona */
+#nombre {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#analista {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#matricula {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 200;
+}
+/* ----------------------------------------------- */
+
+/* dando formato al div que contiene la descripción de los sistemas programdos */
+.container {
+    width: 1120px;
+    height: 370px;
+    border: black 5px dotted;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    width: 560px;
+    height: 350px;
+    background-color: beige;
+    padding: 10px 10px 10px 10px;
+}
+
+.box2 {
+    width: 560px;
+    height: 350px;
+    background-color: beige;
+    padding: 10px 10px 10px 10px;
+}
+/* -------------------------------------------------- */
+
+/* parrafo que contiene el nombre del sistema realizado */
+.titulo {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+/* -------------------------------------------------- */
+
+/* descripción donde se detalla los conocimientos adquiridos */
+.descripcion {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-shadow: 4px 4px;             /* Equivalente a 4px 4px 0 black */
+    text-shadow: 4px 4px 2px;         /* Equivalente a 4px 4px 2px black */
+    text-shadow: 4px 4px 5px #0005;
+}
+/* -------------------------------------------------- */
+
+/* detalle donde se describen las funciones que realizan los sistemas programados */
+.detalle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+/* -------------------------------------------------- */
+
+/* sección donde se detalla cada una de las actividades que realizo */
+.acerca {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+/* -------------------------------------------------- */
+
+/* tabla que almacena los conocimientos adquiridos */
+table{
+    border-collapse:collapse;
+    width: 80%; 
+    text-align: center;
+    border: solid 2px black;
+    margin: auto;
+}
+
+/* celdas de la tabla con ciertas caracterísiticas */
+td {
+    border: solid 1px black;
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+} 
+
+/* cuando se pasa el mouse por encima de una celda de la tabla cambia de color hasta perder el enfoque */
+td:hover{
+    background-color: greenyellow;
+}
+/* -------------------------------------------------- */
+
+/* dando formato a los distintos links de contacto */
+.links {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+/* -------------------------------------------------- */
